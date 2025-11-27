@@ -14,7 +14,6 @@ export default (): JSX.Element => {
                 <box className={'menu-items-container power-dropdown'} vertical hexpand>
                     {PowerButton('shutdown')}
                     {PowerButton('reboot')}
-                    {PowerButton('logout')}
                     {PowerButton('sleep')}
                 </box>
             </box>
